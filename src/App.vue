@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <PostContainer msg="FOX JS"/>
+    <PostContainer msg="Fox Guest List"/>
   </div>
 </template>
 

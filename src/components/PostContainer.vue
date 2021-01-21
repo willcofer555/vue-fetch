@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 class="title">{{ msg }}</h1>
     <div class="inner-hello" v-for="post in posts" v-bind:key="post._id">
    <Post v-bind:post="post" /> 
     </div>
@@ -33,6 +33,7 @@ export default {
             .get(url)
             .then(response => {
                 this.posts = response.data;
+                //set state value here , then allow mutation in the input with event emitter ?
             })
             .catch(err => {
                 console.error(err);
@@ -48,14 +49,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello h1 {
-color: royalblue
+.hello {
 }
 .inner-hello {
+background-color:lightgrey;
 border: 1px solid black;
-margin-top: 15px;
-margin-bottom: 15px;
+margin: 15px 30% 15px 30%;
+width:30rem;
 padding: 10px;
 border-radius: 30px;
+}
+.title {
+color:#c20017;font-size:45px;
 }
 </style>
