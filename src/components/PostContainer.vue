@@ -47,16 +47,15 @@ export default {
 
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 .posts {
 }
 .inner-hello {
-background-color:lightgrey;
 border: 1px solid black;
 margin: 15px 30% 15px 30%;
 width:30rem;
-padding: 10px;
+padding: 10px 0 15px 0;
 border-radius: 30px;
 }
 .title {
