@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="posts">
     <h1 class="title">{{ msg }}</h1>
     <div class="inner-hello" v-for="post in posts" v-bind:key="post._id">
    <Post v-bind:post="post" /> 
@@ -49,7 +49,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello {
+.posts {
 }
 .inner-hello {
 background-color:lightgrey;
