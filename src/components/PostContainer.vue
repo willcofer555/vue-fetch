@@ -59,8 +59,8 @@ padding: 10px 0 15px 0;
 border-radius: 30px;
 background-color: #003366;
 color: white;
--webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
--moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+-moz-box-shadow:    3px 3px 5px 6px #ccc;  
 box-shadow:         3px 3px 5px 6px #ccc;
 }
 .title {
