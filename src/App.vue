@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <PostContainer msg="Fetched from json-generator.com"/>
+    <PostContainer msg="FOX JS"/>
   </div>
 </template>
 
