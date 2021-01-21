@@ -1,1 +1,1 @@
-Vue.js app that fetches data from json-generator and displays in child component. Front end has been built out to display data objects.
+Vue.js app that fetches data from json server and passes data as props to child component. 
