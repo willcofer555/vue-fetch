@@ -33,7 +33,6 @@ export default {
             .get(url)
             .then(response => {
                 this.posts = response.data;
-                //set state value here , then allow mutation in the input with event emitter ?
             })
             .catch(err => {
                 console.error(err);
