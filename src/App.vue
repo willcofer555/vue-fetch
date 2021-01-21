@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PostContainer msg="Fetched from json-generator.com"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PostContainer from './components/PostContainer.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PostContainer
   }
 }
 </script>
