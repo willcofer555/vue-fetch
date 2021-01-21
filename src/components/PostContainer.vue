@@ -1,6 +1,5 @@
 <template>
   <div class="posts">
-    <h1 class="title">{{ msg }}</h1>
     <div class="inner-hello" v-for="post in posts" v-bind:key="post._id">
    <Post v-bind:post="post" /> 
     </div>
@@ -15,9 +14,6 @@ export default {
   name: 'PostContainer',
   components: {
     Post
-  },
-  props: {
-    msg: String
   },
   data() {
     return {
