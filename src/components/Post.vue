@@ -1,15 +1,16 @@
 <template>
   <div class="post">
     <h1> {{ post.name.first }} {{ post.name.last }} </h1>
+    <hr>
     <h4> {{ post.email}} </h4>
-    <h4> {{ post.latitude }}, {{ post.longitude }} </h4>
+    <h4> {{ post.phone}} </h4>
+  <!--  <h4> {{ post.latitude }}, {{ post.longitude }} </h4> -->
     <h4> {{ post.address }} </h4> 
-    <button @click="updateAddress()">save {{post.name.first}}'s address</button>
   </div>
 </template>
 
 <script>
-
+/*import store from '../../store/index.js';*/
 export default {
   name: 'Post',
   data(){
@@ -36,4 +37,5 @@ export default {
 .ml {
 margin-left:10px;
 }
+
 </style>
