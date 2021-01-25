@@ -1,6 +1,6 @@
 <template>
   <div class="posts">
-    <div class="inner-hello" v-for="post in posts" v-bind:key="post._id">
+    <div class="inner-posts" v-for="post in posts" v-bind:key="post._id">
    <Post v-bind:post="post" /> 
     </div>
     <p v-if="loading">loading...</p>
@@ -46,7 +46,7 @@ export default {
 <style scoped>
 .posts {
 }
-.inner-hello {
+.inner-posts {
 border: 1px solid black;
 margin: 15px 30% 15px 30%;
 width:30rem;
