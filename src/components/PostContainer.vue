@@ -54,7 +54,7 @@ padding: 10px 0 15px 0;
 border-radius: 30px;
 background-color: #003366;
 color: white;
-box-shadow:         3px 3px 5px 6px #ccc;
+box-shadow: 3px 3px 5px 6px #ccc;
 }
 .title {
 color:#c20017;font-size:45px;
