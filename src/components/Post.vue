@@ -13,21 +13,11 @@
 export default {
   name: 'Post',
   data(){
-   return{
-    address: String 
-    };
+   return{};
   },
   props: {
     post: Object
   },
-  methods:{
-   updateAddress(){
-     console.log(this.post.address)
-      } 
-  },
-  onMount() {
-  this.address = this.post.address
-  }
 }
 </script>
 
@@ -41,5 +31,4 @@ margin-left:10px;
 hr {
 border:1px solid #c20017;
 }
-
 </style>
